@@ -1,5 +1,5 @@
 deployAs:
-  - name: assets
+  - name: enabler
     applicationType: assets
   - name: merchant-center-custom-application
     applicationType: merchant-center-custom-application
