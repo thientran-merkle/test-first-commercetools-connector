@@ -1,0 +1,26 @@
+{
+  "name": "assets",
+  "private": true,
+  "version": "3.0.2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "serve public -l 8080 --cors",
+    "test": "jest --detectOpenHandles",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "npm run build && serve public -l 3000 --cors"
+  },
+  "dependencies": {
+    "serve": "14.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "jest": "29.7.0",
+    "sass": "1.75.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "5.4.5",
+    "vite": "5.2.8",
+    "vite-plugin-css-injected-by-js": "3.5.0"
+  }
+}
